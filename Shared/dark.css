@@ -1,0 +1,11 @@
+body{
+    background: rgb(30, 30, 30) !important;
+}
+
+*{
+    color: white !important;
+}
+
+button{
+    background: rgb(50,50,50) !important;
+}
