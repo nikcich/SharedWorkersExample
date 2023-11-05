@@ -28,6 +28,8 @@ self.onconnect = function (e) {
     const connectionId = generateUniqueID();
     portMapping[connectionId] = port;
 
+    port.postMessage({ type: MESSAGE_TYPES.TOGGLE_THEME, theme: THEME });
+
     const logToMainConsole = (message) => {
         for (let port of Object.values(portMapping)) {
             port.postMessage({ type: MESSAGE_TYPES.LOG, message: message });

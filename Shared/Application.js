@@ -10,8 +10,6 @@ const launchP = document.getElementById('launchButtonPrimary');
 const launchS = document.getElementById('launchButtonSecondary');
 const toggleTheme = document.getElementById('toggleTheme');
 const INSTANCE = window.INSTANCE;
-
-const draggableElement = document.getElementById('.draggableElement');
 const dropTarget = document;
 
 // Prevent the default behavior of the drop event
